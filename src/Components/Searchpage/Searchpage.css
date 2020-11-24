@@ -1,0 +1,140 @@
+.main-div{
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    background: #6983aa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.upper-center-div{
+    width: 60%;
+    /* margin-top: 20px; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lower-center-div{
+    width: 80%;
+    height: 200px;
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.heading{
+    color: white;
+    background-color: #6d76f7;
+}
+
+.selectTag{
+    padding: 15px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    color: white;
+    background-color: #6d76f7;
+    cursor: pointer;
+}
+
+.selectActiveTag{
+    padding: 15px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+
+ol{
+    margin-top: 30px;
+}
+
+ol li{
+    padding-left: 0px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.far.fa-check-circle{
+    margin-left: 5px;
+}
+
+.child-div{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .todo-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.todo-style .fa-times{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0 15px 0 35px;
+    color: aliceblue;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.todo-style .fa-times:hover{
+    background-color: crimson;
+} */
+
+@media (max-width: 960px){
+    .upper-center-div{
+        width: 70%;
+    }
+    .lower-center-div{
+        width: 70%;
+    }
+}
+
+.search {
+    width: 50%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #6d76f7;
+    border-right: none;
+    padding: 5px;
+    height: 38px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #6d76f7;
+    background: #6d76f7;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+button:focus{
+    outline: none;
+}

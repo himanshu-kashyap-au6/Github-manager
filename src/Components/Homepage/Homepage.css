@@ -1,0 +1,21 @@
+.Homepage{
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    background: #6983aa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* justify-content: center; */
+}
+
+.Empty-repo{
+    width: 60%;
+    height: 100px;
+    background: linear-gradient(90deg, rgb(110, 94, 254), rgba(73, 63, 252, 1) 100%);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
